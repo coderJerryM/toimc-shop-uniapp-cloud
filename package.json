@@ -16,5 +16,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^8.6.0"
-  }
+  },
+  "dependencies": {}
 }
