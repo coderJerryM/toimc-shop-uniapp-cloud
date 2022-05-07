@@ -16,14 +16,14 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/uni_modules/uview-ui/index.scss";
+@import '@/uni_modules/uview-ui/index.scss';
 /*每个页面公共css */
 @import '@/uni_modules/uni-scss/index.scss';
 /* #ifndef APP-NVUE */
 @import '@/static/customicons.css';
 // 设置整个项目的背景色
 page {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 /* #endif */
@@ -31,5 +31,14 @@ page {
   font-size: 14px;
   color: #333;
   padding: 10px;
+}
+.bottom-line {
+  position: fixed;
+  bottom: -5px;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.05);
+  z-index: 999;
 }
 </style>
