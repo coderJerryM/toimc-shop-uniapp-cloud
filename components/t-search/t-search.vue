@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 't-serach',
   props: {},
   data: () => ({}),
   computed: {},
@@ -40,7 +41,7 @@ export default {
     margin: 0 auto;
     padding: 0 15rpx;
     width: 92%;
-    height: 65rpx;
+    height: 70rpx;
     display: flex;
     align-items: center;
     background: #fff;

@@ -36,6 +36,7 @@
 			]
 		}
 	],
+	"scrollIndicator": "none",
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -46,27 +47,28 @@
 		}
 	},
 	"tabBar": {
-		"color": "#cccccc",
-		"selectedColor": "#ff3c3c",
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
 		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
 		"list": [
 			{
 				"text": "首页",
 				"pagePath": "pages/home/home",
-				"iconPath": "static/images/tab_home_no.png",
-				"selectedIconPath": "static/images/tab_home_yes.png"
+				"iconPath": "static/images/tab-home.png",
+				"selectedIconPath": "static/images/tab-home-current.png"
 			},
 			{
 				"text": "购物车",
 				"pagePath": "pages/cart/cart",
-				"iconPath": "static/images/tab_cart_no.png",
-				"selectedIconPath": "static/images/tab_cart_yes.png"
+				"iconPath": "static/images/tab-cart.png",
+				"selectedIconPath": "static/images/tab-cart-current.png"
 			},
 			{
 				"text": "我的",
 				"pagePath": "pages/center/center",
-				"iconPath": "static/images/tab_my_no.png",
-				"selectedIconPath": "static/images/tab_my_yes.png"
+				"iconPath": "static/images/tab-my.png",
+				"selectedIconPath": "static/images/tab-my-current.png"
 			}
 		]
 	}
