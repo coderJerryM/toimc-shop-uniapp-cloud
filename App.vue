@@ -21,9 +21,19 @@ export default {
 @import '@/uni_modules/uni-scss/index.scss';
 /* #ifndef APP-NVUE */
 @import '@/static/customicons.css';
+
 // 设置整个项目的背景色
 page {
   background-color: #ffffff;
+}
+.twoline-hide {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 /* #endif */

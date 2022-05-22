@@ -32,6 +32,13 @@
 						"navigationBarTitleText": "搜索",
 						"enablePullDownRefresh": false
 					}
+				},
+				{
+					"path": "detail/detail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
 				}
 			]
 		}
