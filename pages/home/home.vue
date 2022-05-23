@@ -37,7 +37,7 @@
           <view v-else class="list-head">{{ item.name }}</view>
           <view class="list-body">
             <block v-for="titem in slist" :key="titem.id">
-              <view class="list-item">
+              <view class="list-item" @click="navToDetail">
                 <image class="list-item-img" :src="titem.image" mode="" />
                 <view class="list-item-footer">
                   <view class="list-item-footer-text">{{ titem.title }}</view>
@@ -81,6 +81,12 @@ export default {
       uni.navigateTo({
         url: '/subcom-pkg/search/search',
       })
+    },
+    navToDetail() {
+      this.$navTo('subcom-pkg/detail/detail')
+      // uni.navigateTo({
+      //   url: '/subcom-pkg/detail/detail',
+      // })
     },
     async loadData() {
       let carouselList = await this.$api.json('carouselList')

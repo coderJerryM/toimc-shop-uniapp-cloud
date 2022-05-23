@@ -2,6 +2,9 @@
 import Vue from 'vue'
 import App from './App'
 import uView from '@/uni_modules/uview-ui'
+import {
+  navTo
+} from './common/util'
 import Json from './Json' //测试用数据
 
 // mock模拟，后期会删除
@@ -29,7 +32,8 @@ const json = type=>{
 Vue.config.productionTip = false
 
 // mock数据
-Vue.prototype.$api = {msg, json};
+Vue.prototype.$api = { msg, json };
+Vue.prototype.$navTo = navTo
 
 App.mpType = 'app'
 

@@ -12,6 +12,268 @@ const userInfo = {
 
 const aboutImg = '/static/images/211.jpeg'
 
+const detail =  {
+            "goods_id": 10013,
+            "goods_name": "OPPO R15 直降300◆星云版新品手机 6G+128G R15梦境版 A3同款 R11S升级版 星云版 6+128G 官方标配",
+            "goods_no": "",
+            "video_id": 0,
+            "video_cover_id": 0,
+            "selling_point": "",
+            "spec_type": 20,
+            "goods_price_min": "2699.00",
+            "goods_price_max": "2799.00",
+            "line_price_min": "0.00",
+            "line_price_max": "0.00",
+            "stock_total": 368,
+            "content": "<p><img src=\"https://img20.360buyimg.com/popWaterMark/jfs/t21748/145/84177093/741432/c6a47f83/5afab230Nb31b7f4d.jpg\"/></p><p><img src=\"https://img14.360buyimg.com/popWaterMark/jfs/t20614/6/92391152/323487/385705ee/5afab230N4919e6d3.jpg\"/></p><p><img src=\"https://img30.360buyimg.com/popWaterMark/jfs/t21397/207/87798749/523949/cd2f8e8f/5afab230N797d5808.jpg\"/></p><p><img src=\"https://img13.360buyimg.com/popWaterMark/jfs/t21928/58/85971449/501760/2f658277/5afab230N89f0d305.jpg\"/><img src=\"https://img20.360buyimg.com/popWaterMark/jfs/t21949/143/86631767/103368/1f5dd321/5afab230N8fbc88b6.jpg\"/></p>",
+            "delivery_id": 10001,
+            "is_points_gift": 1,
+            "is_points_discount": 1,
+            "is_alone_points_discount": 0,
+            "points_discount_config": "",
+            "is_enable_grade": 1,
+            "is_alone_grade": 0,
+            "alone_grade_equity": [],
+            "status": 10,
+            "goods_images": [
+                {
+                    "file_id": 10092,
+                    "group_id": 0,
+                    "channel": 10,
+                    "storage": "qiniu",
+                    "domain": "http://static.yoshop.xany6.com",
+                    "file_type": 10,
+                    "file_name": "2018071718130695f254464.jpg",
+                    "file_path": "2018071718130695f254464.jpg",
+                    "file_size": 149169,
+                    "file_ext": "jpg",
+                    "cover": "",
+                    "uploader_id": 0,
+                    "is_recycle": 0,
+                    "is_delete": 0,
+                    "update_time": "2021-03-01 08:00:00",
+                    "preview_url": "http://static.yoshop.xany6.com/2018071718130695f254464.jpg",
+                    "external_url": "http://static.yoshop.xany6.com/2018071718130695f254464.jpg"
+                },
+                {
+                    "file_id": 10091,
+                    "group_id": 0,
+                    "channel": 10,
+                    "storage": "qiniu",
+                    "domain": "http://static.yoshop.xany6.com",
+                    "file_type": 10,
+                    "file_name": "20180717181305a5a5c4059.jpg",
+                    "file_path": "20180717181305a5a5c4059.jpg",
+                    "file_size": 114756,
+                    "file_ext": "jpg",
+                    "cover": "",
+                    "uploader_id": 0,
+                    "is_recycle": 0,
+                    "is_delete": 0,
+                    "update_time": "2021-03-01 08:00:00",
+                    "preview_url": "http://static.yoshop.xany6.com/20180717181305a5a5c4059.jpg",
+                    "external_url": "http://static.yoshop.xany6.com/20180717181305a5a5c4059.jpg"
+                }
+            ],
+            "goods_image": "http://static.yoshop.xany6.com/2018071718130695f254464.jpg",
+            "goods_sales": 0,
+            "is_user_grade": false,
+            "specList": [
+                {
+                    "spec_id": 10001,
+                    "spec_name": "颜色",
+                    "key": 0,
+                    "valueList": [
+                        {
+                            "key": 0,
+                            "groupKey": 0,
+                            "spec_value_id": 10037,
+                            "spec_value": "幻色粉4+128"
+                        },
+                        {
+                            "key": 1,
+                            "groupKey": 0,
+                            "spec_value_id": 10038,
+                            "spec_value": "星云版6+128"
+                        }
+                    ]
+                },
+                {
+                    "spec_id": 10006,
+                    "spec_name": "套餐",
+                    "key": 1,
+                    "valueList": [
+                        {
+                            "key": 0,
+                            "groupKey": 1,
+                            "spec_value_id": 10039,
+                            "spec_value": "官方标配"
+                        },
+                        {
+                            "key": 1,
+                            "groupKey": 1,
+                            "spec_value_id": 10040,
+                            "spec_value": "套餐一"
+                        }
+                    ]
+                }
+            ],
+            "skuList": [
+                {
+                    "id": 10138,
+                    "goods_sku_id": "10037_10039",
+                    "goods_id": 10013,
+                    "image_id": 0,
+                    "goods_sku_no": "",
+                    "goods_price": "2699.00",
+                    "line_price": "0.00",
+                    "stock_num": 96,
+                    "goods_weight": 0.15,
+                    "goods_props": [
+                        {
+                            "group": {
+                                "name": "颜色",
+                                "id": 10001
+                            },
+                            "value": {
+                                "name": "幻色粉4+128",
+                                "id": 10037
+                            }
+                        },
+                        {
+                            "group": {
+                                "name": "套餐",
+                                "id": 10006
+                            },
+                            "value": {
+                                "name": "官方标配",
+                                "id": 10039
+                            }
+                        }
+                    ],
+                    "spec_value_ids": [
+                        10037,
+                        10039
+                    ],
+                    "image_url": null
+                },
+                {
+                    "id": 10139,
+                    "goods_sku_id": "10037_10040",
+                    "goods_id": 10013,
+                    "image_id": 0,
+                    "goods_sku_no": "",
+                    "goods_price": "2799.00",
+                    "line_price": "0.00",
+                    "stock_num": 98,
+                    "goods_weight": 0.15,
+                    "goods_props": [
+                        {
+                            "group": {
+                                "name": "颜色",
+                                "id": 10001
+                            },
+                            "value": {
+                                "name": "幻色粉4+128",
+                                "id": 10037
+                            }
+                        },
+                        {
+                            "group": {
+                                "name": "套餐",
+                                "id": 10006
+                            },
+                            "value": {
+                                "name": "套餐一",
+                                "id": 10040
+                            }
+                        }
+                    ],
+                    "spec_value_ids": [
+                        10037,
+                        10040
+                    ],
+                    "image_url": null
+                },
+                {
+                    "id": 10140,
+                    "goods_sku_id": "10038_10039",
+                    "goods_id": 10013,
+                    "image_id": 0,
+                    "goods_sku_no": "",
+                    "goods_price": "2699.00",
+                    "line_price": "0.00",
+                    "stock_num": 100,
+                    "goods_weight": 0.15,
+                    "goods_props": [
+                        {
+                            "group": {
+                                "name": "颜色",
+                                "id": 10001
+                            },
+                            "value": {
+                                "name": "星云版6+128",
+                                "id": 10038
+                            }
+                        },
+                        {
+                            "group": {
+                                "name": "套餐",
+                                "id": 10006
+                            },
+                            "value": {
+                                "name": "官方标配",
+                                "id": 10039
+                            }
+                        }
+                    ],
+                    "spec_value_ids": [
+                        10038,
+                        10039
+                    ],
+                    "image_url": null
+                },
+                {
+                    "id": 10141,
+                    "goods_sku_id": "10038_10040",
+                    "goods_id": 10013,
+                    "image_id": 0,
+                    "goods_sku_no": "",
+                    "goods_price": "2799.00",
+                    "line_price": "0.00",
+                    "stock_num": 99,
+                    "goods_weight": 0.15,
+                    "goods_props": [
+                        {
+                            "group": {
+                                "name": "颜色",
+                                "id": 10001
+                            },
+                            "value": {
+                                "name": "星云版6+128",
+                                "id": 10038
+                            }
+                        },
+                        {
+                            "group": {
+                                "name": "套餐",
+                                "id": 10006
+                            },
+                            "value": {
+                                "name": "套餐一",
+                                "id": 10040
+                            }
+                        }
+                    ],
+                    "spec_value_ids": [
+                        10038,
+                        10040
+                    ],
+                    "image_url": null
+                }
+            ]
+        }
+
 /* 首页轮播图 */
 const carouselList = [
       {
@@ -388,14 +650,17 @@ const categoryList = [
 
 /* 商品列表 */
 const goodsList = [{
+		id:1,
 		image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553187020783&di=bac9dd78b36fd984502d404d231011c0&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201609%2F26%2F20160926173213_s5adi.jpeg",
 		image2: "http://pic.rmb.bdstatic.com/819a044daa66718c2c40a48c1ba971e6.jpeg",
 		image3: "http://img001.hc360.cn/y5/M00/1B/45/wKhQUVYFE0uEZ7zVAAAAAMj3H1w418.jpg",
 		title: "古黛妃 短袖t恤女夏装2019新款韩版宽松",
 		price: 179,
-		sales: 61,
+	  sales: 61,
+		hot: '本店热销榜第6'
 	},
 	{
+		id:2,
 		image: "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4031878334,2682695508&fm=11&gp=0.jpg",
 		image2: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554013048&di=a3dc9fd1406dd7bad7fbb97b5489ec04&imgtype=jpg&er=1&src=http%3A%2F%2Fimg009.hc360.cn%2Fhb%2FnKo44ac2656F831c684507E3Da0E3a26841.jpg",
 		image3: "http://img.zcool.cn/community/017a4e58b4eab6a801219c77084373.jpg",
@@ -404,6 +669,7 @@ const goodsList = [{
 		sales: 16,
 	},
 	{
+		id:3,
 		image: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1620020012,789258862&fm=26&gp=0.jpg",
 		image2: "http://m.360buyimg.com/n12/jfs/t247/42/1078640382/162559/3628a0b/53f5ad09N0dd79894.jpg%21q70.jpg",
 		image3: "http://ikids.61kids.com.cn/upload/2018-12-29/1546070626796114.jpg",
@@ -411,6 +677,7 @@ const goodsList = [{
 		price: 108.8,
 		sales: 5,
 	}, {
+		id:4,
 		image: "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=756705744,3505936868&fm=11&gp=0.jpg",
 		image2: "http://images.jaadee.com/images/201702/goods_img/30150_d85aed83521.jpg",
 		image3: "http://img13.360buyimg.com/popWaterMark/jfs/t865/120/206320620/138889/dcc94caa/550acedcN613e2a9d.jpg",
@@ -418,6 +685,7 @@ const goodsList = [{
 		price: 265,
 		sales: 88,
 	}, {
+		id:5,
 		image: "https://img13.360buyimg.com/n8/jfs/t1/30343/20/1029/481370/5c449438Ecb46a15b/2b2adccb6dc742fd.jpg",
 		image2: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553418265666&di=d4a7f7eb0ae3c859edeb921641ee1c3a&imgtype=0&src=http%3A%2F%2Fimg003.hc360.cn%2Fy3%2FM02%2FF8%2F9F%2FwKhQh1TuSkGELIlQAAAAAPuLl4M987.jpg",
 		image3: "http://img.ef43.com.cn/product/2016/8/05100204b0c.jpg",
@@ -425,6 +693,7 @@ const goodsList = [{
 		price: 422,
 		sales: 137,
 	}, {
+		id:6,
 		image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553187020783&di=bac9dd78b36fd984502d404d231011c0&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201609%2F26%2F20160926173213_s5adi.jpeg",
 		image2: "http://image5.suning.cn/uimg/b2c/newcatentries/0070158827-000000000622091973_2_800x800.jpg",
 		image3: "http://img.61ef.cn/news/201903/20/2019032009251784.jpg",
@@ -1010,6 +1279,803 @@ const cateList = [{
 	},
 ]
 
+const recommendList =[
+            {
+                "reason": "\"同类商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "Mcar大咖车品  升级款重力感应重力 隐形伸缩车载支架手机架出风口创意多功能汽车导航驾",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.00287460093,
+                "subTitle": "升级款重力感应重力隐形伸缩车载支架手机架",
+                "price": "29.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2020/06/30/FuYlx2R1t81PPiMRDm5pPblmeqfE.jpg",
+                "alias": "3equtys2s0qzmf9",
+                "rank": 1,
+                "id": 1041123142,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 3,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/3equtys2s0qzmf9",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 9904,
+                "algs": "common_by_item.cf_item.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.cart.1:20220520,common_by_user.view.1:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 0,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分25-10元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.00238361047,
+                "subTitle": "10元优惠券；满25元可用",
+                "price": "10.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FqDAb_Rj4bDF2V0tZdpSFfR9Kauf.jpeg",
+                "alias": "2xd4ausjbqpxulh",
+                "rank": 2,
+                "id": 1912377504,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2xd4ausjbqpxulh",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 96501,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.cf_item.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "大家都在买"
+                ],
+                "extendedData": {
+                    "rankType": "hot_sale",
+                    "rankNo": 6
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "拼团20-10红包券",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.00181902212,
+                "subTitle": "10元红包；满20元可用，充电可叠加使用",
+                "price": "10.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/07/13/Fpzfyk_faTMfadAXd2jS-nToZWE_.jpg",
+                "alias": "2xecax8oy40cyb9",
+                "rank": 3,
+                "id": 1268741427,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2xecax8oy40cyb9",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 8343,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分20-7元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.00177045295,
+                "subTitle": "7元优惠券；满20元可用",
+                "price": "7.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/01/24/FvcvCXfneLBb0uJvbIxfU-FHY8sD.png",
+                "alias": "2fy52ycppy8j6ax",
+                "rank": 4,
+                "id": 1912298145,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2fy52ycppy8j6ax",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 98945,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.cf_item.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "大家都在买"
+                ],
+                "extendedData": {
+                    "rankType": "hot_sale",
+                    "rankNo": 9
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分15-3元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.00159986608,
+                "subTitle": "3元优惠券；满15元可用",
+                "price": "3.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/Fg7n16fDdRaufl_yy5A77aVxoIt4.jpg",
+                "alias": "1y5k04av8h5wi02",
+                "rank": 5,
+                "id": 1912084291,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/1y5k04av8h5wi02",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99288,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "大家都在买"
+                ],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 9
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分20-5元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.00126388983,
+                "subTitle": "5元优惠券；满20元可用",
+                "price": "5.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FhkiFB2gC9c0JRzpPYbQKBVMpMkU.jpg",
+                "alias": "2g1s1f99leoiqkm",
+                "rank": 6,
+                "id": 1912298000,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2g1s1f99leoiqkm",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99233,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "大家都在买"
+                ],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 8
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分25-8元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.00100655179,
+                "subTitle": "8元优惠券；满25元可用",
+                "price": "8.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FmUooS1SvkKZG3ZSZ9KDBG1LJSqo.jpeg",
+                "alias": "2xmwzhejzlkwi83",
+                "rank": 7,
+                "id": 1912378951,
+                "height": 1280,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2xmwzhejzlkwi83",
+                "postage": 0,
+                "width": 1280,
+                "totalStock": 99489,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 6
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分20-6元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.000951711379,
+                "subTitle": "6元优惠券；满20元可用",
+                "price": "6.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FnoBEGxB4AuGkJUa5uZTvfYeVBsR.jpg",
+                "alias": "2798fiv4hpfnm97",
+                "rank": 8,
+                "id": 1912299019,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2798fiv4hpfnm97",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99715,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "new_arrival",
+                    "rankNo": 6
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分15-2元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.000718194351,
+                "subTitle": "2元优惠券；满15元可用",
+                "price": "2.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FljJgvvEM_vZScyoDmvwWVHrKOkX.jpeg",
+                "alias": "35zhhy0gox19ugy",
+                "rank": 9,
+                "id": 1733114772,
+                "height": 1280,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/35zhhy0gox19ugy",
+                "postage": 0,
+                "width": 1280,
+                "totalStock": 99762,
+                "algs": "common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "大家都在买"
+                ],
+                "extendedData": {
+                    "rankType": "new_arrival",
+                    "rankNo": 9
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相关商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分10-1元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.000686883344,
+                "subTitle": "1元优惠券；满10元可用",
+                "price": "1.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FkmrTGb9rXlUW2XvYfFvxOXc03On.jpeg",
+                "alias": "275j2537woo4yfz",
+                "rank": 10,
+                "id": 1733110979,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/275j2537woo4yfz",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99808,
+                "algs": "common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "new_arrival",
+                    "rankNo": 8
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "115",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "快电VIP会员（3个月）",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.000598695769,
+                "subTitle": "快电VIP会员（3个月）",
+                "price": "88.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/12/14/Fqfo-L0FfuRjqUHGZbEUF5iwVfAt.png",
+                "alias": "1y9axlmq8otoik5",
+                "rank": 11,
+                "id": 991699094,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/1y9axlmq8otoik5",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 9947,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.cf_item.0:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_user.view.1:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 4
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "碳积分20-4元优惠券",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.000542860653,
+                "subTitle": "4元优惠券；满20元可用",
+                "price": "4.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/05/06/FhVZq_3130TXEZtahTU3FCocRZUD.jpg",
+                "alias": "271uw0s3u62lusd",
+                "rank": 12,
+                "id": 1912176749,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/271uw0s3u62lusd",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99771,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [
+                    "爆款"
+                ],
+                "extendedData": {
+                    "rankType": "new_arrival",
+                    "rankNo": 7
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "快电VIP会员（1个月)",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.000379677716,
+                "subTitle": "快电VIP会员（1个月)",
+                "price": "39.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/11/08/FonW-UyNd_3mXMuL7aRQWJAWLSsQ.png",
+                "alias": "1yah79d93wlki1r",
+                "rank": 13,
+                "id": 1282845020,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/1yah79d93wlki1r",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 1947,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_user.view.1:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "hot_sale",
+                    "rankNo": 4
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "10元充电红包",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.000306136935,
+                "subTitle": "10元红包；满15元可用，充电可叠加其他优惠使用",
+                "price": "10.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/07/13/Fpzfyk_faTMfadAXd2jS-nToZWE_.jpg",
+                "alias": "2oph7jit5t96q",
+                "rank": 14,
+                "id": 978445212,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/2oph7jit5t96q",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 75907,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "hot_sale",
+                    "rankNo": 1
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "20-3元充电红包券",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.000299464242,
+                "subTitle": "3元红包；满20元可用，充电可叠加使用",
+                "price": "3.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/07/13/Fu19U798ilC2f6JUACTGadXNDJIn.jpg",
+                "alias": "3nuixcyy2oy5uwx",
+                "rank": 15,
+                "id": 1458942480,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/3nuixcyy2oy5uwx",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 99071,
+                "algs": "common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "20元免单券",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.000286094815,
+                "subTitle": "快电充电免单券，最高抵扣20元",
+                "price": "20.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/04/08/FiT2l5SQQ4YM6Xl2WwBvUc9jpTyD.jpg",
+                "alias": "1ygnm6yaqus6ant",
+                "rank": 16,
+                "id": 1254203415,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/1ygnm6yaqus6ant",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 9884,
+                "algs": "common_by_item.view_item_cf_pro.0:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "快电VIP会员（12个月)自动发放至快电APP",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.000236284948,
+                "subTitle": "快电VIP会员（12个月)",
+                "price": "198.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/04/19/Fk4APaqGJGOQZ7bm1OLozZ4xts8k.png",
+                "alias": "36842rd36qb42qk",
+                "rank": 17,
+                "id": 1560190136,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/36842rd36qb42qk",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 1480,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_user.buy_item_cf_pro.0:20220520,common_by_user.view.1:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 1
+                },
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "20-7红包券",
+                "showDefaultTags": [
+                    {
+                        "id": 3,
+                        "name": "店家推荐"
+                    }
+                ],
+                "score": 0.000176035275,
+                "subTitle": "7元红包券；满20元可用，充电可叠加使用",
+                "price": "7.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/07/13/FpdNL02Vx3Xcx_oAdsCeDix8M_tj.jpg",
+                "alias": "3nvpjdckzwz4ilh",
+                "rank": 18,
+                "id": 1388135667,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/3nvpjdckzwz4ilh",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 13241,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "快电VIP会员（西安季卡)",
+                "showDefaultTags": [
+                    {
+                        "id": 1,
+                        "name": "热卖商品"
+                    }
+                ],
+                "score": 0.000169110383,
+                "subTitle": "快电VIP会员（3个月)",
+                "price": "88.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2022/02/08/Fo1KBhe7WslOdiyJjSHozLWohC__.png",
+                "alias": "35zi0i7n5gkg2s8",
+                "rank": 19,
+                "id": 1833077602,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 6,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/35zi0i7n5gkg2s8",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 1043,
+                "algs": "common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {},
+                "showRankingInfo": true
+            },
+            {
+                "reason": "\"相似商品\"",
+                "itemType": "goods",
+                "origin": "",
+                "tagIds": [
+                    133038079
+                ],
+                "title": "快电VIP会员（一个月)自动发放至快电APP",
+                "showDefaultTags": [
+                    {
+                        "id": 2,
+                        "name": "精选商品"
+                    }
+                ],
+                "score": 0.000993431662,
+                "subTitle": "快电VIP会员（1个月)",
+                "price": "39.00",
+                "imageUrl": "https://img01.yzcdn.cn/upload_files/2021/11/08/FonW-UyNd_3mXMuL7aRQWJAWLSsQ.png",
+                "alias": "3f36mno84x576fv",
+                "rank": 20,
+                "id": 1559538944,
+                "height": 800,
+                "kdtId": 92959426,
+                "buyUrl": "",
+                "buyWay": 1,
+                "soldStatus": 1,
+                "priority": 10,
+                "url": "https://shop93151594.m.youzan.com/wscgoods/detail/3f36mno84x576fv",
+                "postage": 0,
+                "width": 800,
+                "totalStock": 1789,
+                "algs": "common_by_item.view_swing.0:20220520,common_by_item.view_item_cf_pro.0:20220520,common_by_item.view_cf_item.1:20220520,common_by_user.view_item_cf_pro.0:20220520,common_by_realtime.behavior_expand_offline.0:2022422,esmm_21_1108.1.classify,620.0.0.0.869.602.0.0.820.268.401.456.582_79afa78063894a5fbc9575d824a7883a",
+                "isVirtual": 2,
+                "showTags": [],
+                "extendedData": {
+                    "rankType": "popular",
+                    "rankNo": 2
+                },
+                "showRankingInfo": true
+            }
+        ]
+
 export default {
 	carouselList,
 	cartList,
@@ -1022,5 +2088,7 @@ export default {
 	cateList,
 	homeList,
 	categoryList,
-	aboutImg
+	aboutImg,
+	detail,
+	recommendList
 }

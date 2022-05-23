@@ -1,6 +1,7 @@
 <template>
   <view class="center"
     >center
+    <t-recommend :list="recommend"></t-recommend>
     <view class="bottom-line"></view>
   </view>
 </template>
@@ -8,13 +9,18 @@
 <script>
 export default {
   components: {},
-  data: () => ({}),
+  data: () => ({
+    recommend: [],
+  }),
   computed: {},
   methods: {},
   watch: {},
 
   // 页面周期函数--监听页面加载
-  onLoad() {},
+  async onLoad() {
+    const recommendData = await this.$api.json('recommendList')
+    this.recommend = recommendData
+  },
   // 页面周期函数--监听页面初次渲染完成
   onReady() {},
   // 页面周期函数--监听页面显示(not-nvue)
@@ -36,4 +42,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.center {
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+</style>
