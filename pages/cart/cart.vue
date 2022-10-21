@@ -3,41 +3,30 @@
     <!-- 页面顶部 -->
     <view v-if="list.length" class="head-info">
       <view class="cart-total">
-        <text>共</text>
+        <text class="text-info">共</text>
         <text class="active">2</text>
-        <text>件商品</text>
+        <text class="text-info">件商品</text>
       </view>
       <view class="cart-edit" @click="handleToggleMode">
         <view v-if="mode == 'normal'" class="normal">
-          <text>编辑</text>
+          <text class="text-info">编辑</text>
         </view>
         <view v-if="mode == 'edit'" class="edit">
-          <text>完成</text>
+          <text class="text-info">完成</text>
         </view>
       </view>
     </view>
     <!-- 购物车商品列表 -->
     <view v-if="list.length" class="cart-list">
-      <view
-        class="cart-item"
-        v-for="(item, index) in list"
-        :key="index"
-        @click.stop="onTargetGoods(item.id)"
-      >
+      <view class="cart-item" v-for="(item, index) in list" :key="index" @click.stop="onTargetGoods(item.id)">
         <label class="item-radio" @click.stop="handleCheckItem(item.id)">
-          <radio
-            class="radio"
-            color="#fa2209"
-            :checked="inArray(item.id, checkedIds)"
-          />
+          <radio class="radio" color="#fa2209" :checked="inArray(item.id, checkedIds)" />
         </label>
         <view class="goods-image">
           <image class="image" :src="item.image" mode="scaleToFill"></image>
         </view>
         <view class="item-content">
-          <view class="goods-title"
-            ><text class="twoline-hide">{{ item.title }}</text></view
-          >
+          <view class="goods-title"><text class="twoline-hide">{{ item.title }}</text></view>
           <!-- <view class="goods-props clearfix">
             <view
               class="goods-props-item"
@@ -53,11 +42,7 @@
               <text class="value">{{ item.price }}</text>
             </view>
             <view class="stepper">
-              <u-number-box
-                :min="1"
-                :value="item.number"
-                @change="onChangeStepper($event, item)"
-              />
+              <u-number-box :min="1" :value="item.number" @change="onChangeStepper($event, item)" />
             </view>
           </view>
         </view>
@@ -66,15 +51,11 @@
     <!-- 底部 -->
     <view v-if="list.length" class="footer-fixed">
       <label class="all-radio" @click="handleCheckAll">
-        <radio
-          class="radio"
-          color="#fa2209"
-          :checked="checkedIds.length > 0 && checkedIds.length === list.length"
-        />
-        <text>全选</text>
+        <radio class="radio" color="#fa2209" :checked="checkedIds.length > 0 && checkedIds.length === list.length" />
+        <text class="text-info">全选</text>
       </label>
       <view class="total-info">
-        <text>合计：</text>
+        <text class="text-info">合计：</text>
         <view class="goods-price">
           <text class="unit">￥</text>
           <text class="value">{{ totalPrice }}</text>
@@ -84,23 +65,11 @@
         <view class="btn-wrapper">
           <!-- dev:下面的disabled条件使用checkedIds.join方式判断 -->
           <!-- dev:通常情况下vue项目使用checkedIds.length更合理, 但是length属性在微信小程序中不起作用 -->
-          <view
-            v-if="mode == 'normal'"
-            class="btn-item btn-main"
-            :class="{ disabled: checkedIds.join() == '' }"
-            @click="handleOrder()"
-          >
-            <text
-              >去结算
-              {{ checkedIds.length > 0 ? `(${checkedIds.length})` : '' }}</text
-            >
+          <view v-if="mode == 'normal'" class="btn-item btn-main" :class="{ disabled: checkedIds.join() == '' }" @click="handleOrder()">
+            <text class="text-info">去结算
+              {{ checkedIds.length > 0 ? `(${checkedIds.length})` : '' }}</text>
           </view>
-          <view
-            v-if="mode == 'edit'"
-            class="btn-item btn-main"
-            :class="{ disabled: !checkedIds.length }"
-            @click="handleDelete()"
-          >
+          <view v-if="mode == 'edit'" class="btn-item btn-main" :class="{ disabled: !checkedIds.length }" @click="handleDelete()">
             <text>删除</text>
           </view>
         </view>
@@ -109,11 +78,7 @@
 
     <!-- 购物车为空 -->
     <view class="cart-empty" v-if="list.length === 0">
-      <u-empty
-        mode="car"
-        text="赶紧买点宝贝慰劳下自己吧"
-        icon="http://cdn.uviewui.com/uview/empty/car.png"
-      >
+      <u-empty mode="car" text="赶紧买点宝贝慰劳下自己吧" icon="http://cdn.uviewui.com/uview/empty/car.png">
       </u-empty>
       <text>购物车还是空的</text>
       <view class="btn">去逛逛</view>
@@ -288,6 +253,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.text-info {
+  font-size: 28rpx;
+}
+
 .cart {
   background: #f4f6f8;
   min-height: 100vh;

@@ -6,7 +6,7 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "timoc周边"
+				"navigationBarTitleText": "toimc周边"
 			}
 		},
 		{
@@ -19,6 +19,12 @@
 			"path": "pages/center/center",
 			"style": {
 				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "components/t-settings/index",
+			"style": {
+				"navigationBarTitleText": "t-settings"
 			}
 		}
 	],

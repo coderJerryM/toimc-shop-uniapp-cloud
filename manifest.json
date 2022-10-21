@@ -55,9 +55,15 @@
         "setting" : {
             "urlCheck" : false,
             "postcss" : true,
-            "minified" : true
+            "minified" : true,
+            "es6" : true
         },
         "usingComponents" : true
     },
-    "vueVersion" : "2"
+    "vueVersion" : "2",
+    "mp-kuaishou" : {
+        "uniStatistics" : {
+            "enable" : true
+        }
+    }
 }
