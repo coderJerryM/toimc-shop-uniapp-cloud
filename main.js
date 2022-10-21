@@ -28,9 +28,7 @@ const json = type=>{
 		}, 500)
 	})
 }
-
 Vue.config.productionTip = false
-
 // mock数据
 Vue.prototype.$api = { msg, json };
 Vue.prototype.$navTo = navTo

@@ -66,6 +66,7 @@ export default {
     tSwiper,
   },
   data: () => ({
+    openid: '',
     carouselList: [],
     categoryList: [],
     flist: [],
@@ -155,7 +156,16 @@ export default {
   },
   // 页面周期函数--监听页面加载
   onLoad() {
-    this.loadData()
+    this.loadData(),
+      wx.cloud.callFunction({
+        // 云函数名称
+        name: 'main',
+        // 传给云函数的参数
+        success: function (res) {
+          console.log(res.result.appid)
+        },
+        fail: console.error,
+      })
   },
   // 页面周期函数--监听页面初次渲染完成
   onReady() {},
