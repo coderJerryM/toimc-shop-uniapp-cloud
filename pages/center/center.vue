@@ -1,6 +1,8 @@
 <template>
-  <view class="center"
-    >center
+  <view class="center">center
+    <t-user-info></t-user-info>
+    <t-settings></t-settings>
+    <t-orders></t-orders>
     <t-recommend :list="recommend"></t-recommend>
     <view class="bottom-line"></view>
   </view>
